@@ -10,20 +10,16 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Готовимся к ЕГЭ по информатике',
   tagline: 'Быстро и эффективно',
-  url: 'https://example.com',
-  baseUrl: '/',
+  url: 'https://github.com',
+  baseUrl: '/infa_100/',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'facebook', // Название организации (или ваше)
-  projectName: 'docusaurus', // Название проекта (репозитория)
+  organizationName: 'sidewinder-x', // Название организации (или ваше)
+  projectName: 'infa_100', // Название проекта (репозитория)
 
   onBrokenLinks: 'throw', // Либо "warn", если не хочешь, чтобы сайт падал при ошибках ссылок
   onBrokenMarkdownLinks: 'warn', // Предупреждения о битых Markdown-ссылках
-
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+  deploymentBranch: "gh-pages",
 
   presets: [
     [
